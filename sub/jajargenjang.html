@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../index.js"></script>
+    <link rel="stylesheet" href="../index.css">
+    <title>Mini Project</title>
+</head>
+<body>
+    <h1>LUAS JAJAR GENJANG</h1>
+    <a>Rumus Luas Jajar Genjang Yaitu :</a><br>
+    <img src="../img/jj.png"/>
+    <h4>L = a x t</h4>
+    <a>Dimana :</a><br>
+    <a>L = Luas</a><br>
+    <a>a = Panjang Alas</a><br>
+    <a>t = Tinggi</a><br>
+    <form action="" method="post" onsubmit="return false">
+        <h2>Hitung Luas Jajar Genjang</h2>
+        <p><input type="text" name="alas_luas" id="alas_luas" placeholder="Nilai Alas"></p>
+        <p><input type="text" name="tinggi_luas" id="tinggi_luas" placeholder="Nilai Tinggi"></p>
+        <div class="submit"><input type="submit" name="button" onClick="hitung_luas_jajar_genjang()" value="Hitung"></div>
+ 
+        <b id="rumus_luas_saja"></b><br>
+        <b id="rumus_luas_angka"></b><br>
+        <b id="luas"></b>
+
+        <div class="reset"><input type="reset" value="Reset" onClick="reset_luas_jajar_genjang()" /></p></div>
+    </form>
+    <br>
+
+    <h1>KELILING JAJAR GENJANG</h1>
+    <a>Rumus Keliling Jajar Genjang Yaitu :</a><br>
+    <img src="../img/jj.png"/>
+    <h4>K = 2 x (a + t)</h4>
+    <a>Dimana :</a><br>
+    <a>K = Keliling</a><br>
+    <a>a = Panjang Alas</a><br>
+    <a>t = Tinggi</a><br>
+    <form action="" method="post" onsubmit="return false">
+        <h2>Hitung Keliling Jajar Genjang</h2>
+        <p><input type="text" name="alas_keliling" id="alas_keliling" placeholder="Nilai Alas"></p>
+        <p><input type="text" name="tinggi_keliling" id="tinggi_keliling" placeholder="Nilai Tinggi"></p>
+        <div class="submit"><input type="submit" name="button" onClick="hitung_keliling_jajar_genjang()" value="Hitung"></div>
+        
+        <b id="rumus_keliling_saja"></b><br>
+        <b id="rumus_keliling_angka"></b><br>
+        <b id="keliling"></b>
+
+        <div class="reset"><input type="reset" value="Reset" onClick="reset_keliling_jajar_genjang()" /></div>
+    </form>
+    <br>
+    <a href="../index.html"><input type="submit" value="Kembali"></input></a>
+</body>
+</html>
